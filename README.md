@@ -1,19 +1,15 @@
-# Warning : 
+# Warning : this plugin is dead.
 
-This plugin won't be maintained anymore.
+This plugin was a kind of http calls native proxy with a cache on native side. Not very useful anymore.
+
+This plugin is not maintained anymore and has been archived.
 
 
-# WebservicesPlugin
+
+---
+
 
 Webservices plugin allows you to call APIs and store results in a native cache. This native cache can be processed with the native side. It has options to decide which call should be stored or not and so on.
-
-
-## How to use
-
-* import the plugin to your project as explained [here](https://github.com/cobaltians/cobalt/wiki/Plugins-usage)
-* Add the cobalt.webservices.js to your web JS folder
-* Add an html link to the cobalt.webservices.js plugin script after the cobalt link in the HEAD tag
-
 
 
 ### Usage on the web side
@@ -77,7 +73,8 @@ Webservices plugin allows you to call APIs and store results in a native cache. 
 			}
 		}
 	})
-	
+
+<!-- 
 #### How it works
 
 When **cobalt.ws.call** is called on JS side, JS sends this to native :
@@ -126,10 +123,10 @@ If already something in storageKey and sendCacheResult was true, native sends th
 	}}
 
 
-	
+-->
 	
 
-##getting the cache result only :
+## getting the cache result only :
 
 User can also get the result form cache without calling server again like this :
 
