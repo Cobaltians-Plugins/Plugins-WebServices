@@ -1,9 +1,14 @@
-#WebservicesPlugin
+# Warning : 
+
+This plugin won't be maintained anymore.
+
+
+# WebservicesPlugin
 
 Webservices plugin allows you to call APIs and store results in a native cache. This native cache can be processed with the native side. It has options to decide which call should be stored or not and so on.
 
 
-##How to use
+## How to use
 
 * import the plugin to your project as explained [here](https://github.com/cobaltians/cobalt/wiki/Plugins-usage)
 * Add the cobalt.webservices.js to your web JS folder
